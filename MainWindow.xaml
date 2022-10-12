@@ -1,0 +1,67 @@
+﻿<Window x:Class="TextClassificationGUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TabControl>
+            <TabItem Header="Trainig Time">
+                <Grid Background="#FFE5E5E5">
+                    <Button Content="Train" HorizontalAlignment="Left" Margin="25,33,0,0" VerticalAlignment="Top"
+                            Click="Button_Click" />
+                    <TextBox x:Name="trainTimeTextBox" Text="{Binding Path=TrainingTime}" TextWrapping="Wrap" VerticalAlignment="Top"
+                             Width="120" Margin="119,35,555,0" />
+                    <TextBlock Text="{Binding Path=TrainingAccuracy}" Width="280" Height="30" Margin="-500, 80,0,0" VerticalAlignment="Top"></TextBlock>
+                </Grid>
+            </TabItem>
+            <TabItem Header="File names">
+                <Grid Background="#FFE5E5E5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition />
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="7*" />
+                    </Grid.RowDefinitions>
+
+                    <TextBlock Grid.Row="0" Grid.Column="0" Text="ClassA" HorizontalAlignment="Center" />
+                    <TextBlock Grid.Row="0" Grid.Column="1" Text="ClassB" HorizontalAlignment="Center" />
+
+                    <ListBox Grid.Row="1" Grid.Column="0" ItemsSource="{Binding Path=ObservableA}" />
+                    <ListBox Grid.Row="1" Grid.Column="1" ItemsSource="{Binding Path=ObservableB}" />
+
+                </Grid>
+            </TabItem>
+            <TabItem Header="Num. of tokens">
+                <Grid Background="#FFE5E5E5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition />
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="7*" />
+                    </Grid.RowDefinitions>
+                    <TextBlock Grid.Row="0" Grid.Column="0" Text="File name" HorizontalAlignment="Center"
+                               VerticalAlignment="Center" />
+                    <TextBlock Grid.Row="0" Grid.Column="1" Text="Token count" HorizontalAlignment="Center"
+                               VerticalAlignment="Center" />
+                    <ListBox Grid.Column="0" Grid.Row="1" ItemsSource="{Binding Path=ObservableAB}" />
+                    <ListBox Grid.Column="1" Grid.Row="1" ItemsSource="{Binding Path=ObservableTokens}" />
+                </Grid>
+            </TabItem>
+            <TabItem Header="Dictionary">
+                <Grid Background="#FFE5E5E5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <ListBox Grid.Column="1" ItemsSource="{Binding Path=ObservableDictionaryList}" />
+                </Grid>
+
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>
