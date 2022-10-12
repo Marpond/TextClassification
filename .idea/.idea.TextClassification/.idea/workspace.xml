@@ -5,47 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="014a376a-725d-4bca-ade3-fcb42ac109ce" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../TestProject/TestProject.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestProject/UnitTest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.TextClassification/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.TextClassification/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.TextClassification/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.TextClassification/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.TextClassification/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.TextClassification/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_Controller/VectorOperations.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextClassification.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TextClassification/1_Controller/AbstractFileListsBuilder.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TextClassification/1_Controller/AbstractKnowledgeBuilder.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TextClassification/1_Controller/AbstractVectorsBuilder.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TextClassification/1_Controller/FileListBuilder.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TextClassification/1_Controller/KnowledgeBuilder.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TextClassification/1_Controller/VectorsBuilder.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TextClassification/2_Domain/BagOfWords.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TextClassification/2_Domain/FileLists.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TextClassification/2_Domain/Knowledge.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TextClassification/2_Domain/Vectors.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TextClassification/2_Domain/WordItem.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TextClassification/3_Business/Tokenization.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TextClassification/4_FileIO/FileAdapter.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TextClassification/4_FileIO/TextFile.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TextClassification/5_Foundation/StringOperations.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TextClassification/App.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TextClassification/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TextClassification/Properties/AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TextClassification/TextClassification.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TextClassification/TextClassification.sln" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_Controller/AbstractFileListsBuilder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/1_Controller/AbstractFileListsBuilder.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_Controller/FileListBuilder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/1_Controller/FileListBuilder.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_Controller/KnowledgeBuilder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/1_Controller/KnowledgeBuilder.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_Controller/ObservableData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/1_Controller/ObservableData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_Domain/FileLists.cs" beforeDir="false" afterPath="$PROJECT_DIR$/2_Domain/FileLists.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4_FileIO/FileAdapter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/4_FileIO/FileAdapter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4_FileIO/TextFile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/4_FileIO/TextFile.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5_Foundation/StringOperations.cs" beforeDir="false" afterPath="$PROJECT_DIR$/5_Foundation/StringOperations.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainWindow.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/MainWindow.xaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainWindow.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MainWindow.xaml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextClassificationGUI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TextClassificationGUI.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TextClassification/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TextClassification/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TextClassification/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TextClassification/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +34,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected=".NET Project.TextClassificationGUI">
+  <component name="RunManager">
     <configuration name="TextClassificationGUI" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -104,6 +65,7 @@
       <workItem from="1665596913272" duration="389000" />
       <workItem from="1665597819632" duration="6149000" />
       <workItem from="1665610086573" duration="3963000" />
+      <workItem from="1665614627602" duration="31000" />
     </task>
     <servers />
   </component>
