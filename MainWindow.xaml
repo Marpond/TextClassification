@@ -7,13 +7,16 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <TabControl>
-            <TabItem Header="Trainig Time">
+            <TabItem Header="Training Time">
                 <Grid Background="#FFE5E5E5">
                     <Button Content="Train" HorizontalAlignment="Left" Margin="25,33,0,0" VerticalAlignment="Top"
-                            Click="Button_Click" />
-                    <TextBox x:Name="trainTimeTextBox" Text="{Binding Path=TrainingTime}" TextWrapping="Wrap" VerticalAlignment="Top"
+                            Click="ButtonTrain_Click" />
+                    <TextBox Text="{Binding Path=TrainingTime}" TextWrapping="Wrap" VerticalAlignment="Top"
                              Width="120" Margin="119,35,555,0" />
                     <TextBlock Text="{Binding Path=TrainingAccuracy}" Width="280" Height="30" Margin="-500, 80,0,0" VerticalAlignment="Top"></TextBlock>
+                    <Button x:Name="buttonGuess" Click="ButtonGuess_OnClick" Width="100" Height="30" Content="Guess the text" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,150,0,0" IsEnabled="False"></Button>
+                    <TextBox x:Name="textBoxGuess" IsEnabled="False" Width="250" Height="30" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="120,-100,0,0"></TextBox>
+                    <TextBlock Text="{Binding Path=TextGuessClass}" Height="20" Width="300" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="0,0,0,0"></TextBlock>
                 </Grid>
             </TabItem>
             <TabItem Header="File names">

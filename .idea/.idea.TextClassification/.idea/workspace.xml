@@ -5,8 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="014a376a-725d-4bca-ade3-fcb42ac109ce" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TextClassification/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TextClassification/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0-windows/BenchA/Luis_Diaz_football.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0-windows/BenchA/Messi_Injured.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0-windows/BenchA/Notingham_Not_bottom.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0-windows/BenchA/Shakhtar_Ukraine.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0-windows/BenchA/Someones_100th_appearance.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0-windows/BenchB/The_Fox_and_the_Crow.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0-windows/BenchB/The_Gingerbread_Man.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0-windows/BenchB/The_Grasshopper_and_the_ants.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0-windows/BenchB/The_Princess_and_the_pea.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0-windows/BenchB/The_Rat_and_the_Elephant.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0-windows/ClassA/City_Copenhagen_UCl.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0-windows/ClassA/Kante_Left_out.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0-windows/ClassA/bbcsportsfootball.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0-windows/ClassA/dailymirrornfl.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0-windows/ClassA/sunsportsboxing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0-windows/ClassB/Androcles_and_the_lion.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0-windows/ClassB/Cinderella.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0-windows/ClassB/Goldilocks_and_the_three_bears.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0-windows/ClassB/Snow White.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0-windows/ClassB/The Little Mermaid.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TextClassification/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TextClassification/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_Controller/KnowledgeBuilder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/1_Controller/KnowledgeBuilder.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_Controller/ObservableData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/1_Controller/ObservableData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_Controller/VectorOperations.cs" beforeDir="false" afterPath="$PROJECT_DIR$/1_Controller/VectorOperations.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainWindow.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/MainWindow.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainWindow.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MainWindow.xaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextClassificationGUI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TextClassificationGUI.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0-windows/MainWindow.baml" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0-windows/MainWindow.baml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0-windows/MainWindow.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0-windows/MainWindow.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0-windows/TextClassificationGUI_MarkupCompile.cache" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,7 +42,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/.nuget/packages/microsoft.net.test.sdk/16.9.4/build/netcoreapp2.1/Microsoft.NET.Test.Sdk.Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/198a6261cebc324728dcc4c178edc5f2894123f711722c80e8557cbfd27651/ThrowHelper.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/df484e784747623a93a1735e18f88d1ab5f573101f62bf1c7a5f5345a2d7e/FileSystemEnumerator.Windows.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -25,15 +55,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="TextClassificationGUI" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -66,14 +96,26 @@
       <workItem from="1665597819632" duration="6149000" />
       <workItem from="1665610086573" duration="3963000" />
       <workItem from="1665614627602" duration="31000" />
+      <workItem from="1665614749271" duration="4169000" />
     </task>
+    <task id="LOCAL-00001" summary="added txt files">
+      <created>1665614949121</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1665614949121</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="added txt files" />
+    <option name="LAST_COMMIT_MESSAGE" value="added txt files" />
   </component>
 </project>

@@ -14,6 +14,7 @@ public class ObservableData : Bindable
     private ObservableCollection<int> _observableTokens;
     private string _trainingTime;
     private string _trainingAccuracy;
+    private string _textGuessClass;
 
 
     public ObservableData()
@@ -102,6 +103,16 @@ public class ObservableData : Bindable
         set
         {
             _trainingAccuracy = value;
+            PropertyIsChanged();
+        }
+    }
+    
+    public string TextGuessClass
+    {
+        get => _textGuessClass;
+        set
+        {
+            _textGuessClass = value;
             PropertyIsChanged();
         }
     }

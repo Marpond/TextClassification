@@ -176,26 +176,26 @@ public class KnowledgeBuilder : AbstractKnowledgeBuilder
         var benchAFileNames = _fileLists.GetBenchA();
         var benchBFileNames = _fileLists.GetBenchB();
 
-        int succesA = 0;
+        int successA = 0;
         benchAFileNames.ForEach(file =>
         {
             var text = _fileAdapter.GetAllTextFromBenchFileA(StringOperations.GetFileName(file));
             var vector = VectorizeString(text);
             var type = VectorOperations.GetClosestVectorType(_knowledge.GetVectors(), vector, BENCHMARK_RANGE);
-            if (type is "ClassA") succesA++;
+            if (type is "ClassA") successA++;
         });
         
-        int succesB = 0;
+        int successB = 0;
         benchBFileNames.ForEach(file =>
         {
             var text = _fileAdapter.GetAllTextFromBenchFileB(StringOperations.GetFileName(file));
             var vector = VectorizeString(text);
             var type = VectorOperations.GetClosestVectorType(_knowledge.GetVectors(), vector, BENCHMARK_RANGE);
-            if (type is "ClassB") succesB++;
+            if (type is "ClassB") successB++;
         });
         
-        return $"Class A benchmark succes rate: {succesA / (double)benchAFileNames.Count * 100}%\n" +
-               $"Class B benchmark succes rate: {succesB / (double)benchBFileNames.Count * 100}%";
+        return $"Class A benchmark succes rate: {successA / (double)benchAFileNames.Count * 100}%\n" +
+               $"Class B benchmark succes rate: {successB / (double)benchBFileNames.Count * 100}%";
     }
     
 }
